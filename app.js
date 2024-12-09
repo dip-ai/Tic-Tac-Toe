@@ -78,7 +78,6 @@ const checkWinner = () => {
     if (isDraw()) {
         msg.innerText="The match is Drawn";
         msgContainer.classList.remove("hide");
-        // setTimeout(resetGame, 200); // Reset game after showing the message
     }
 }
 
